@@ -118,7 +118,7 @@ h1 {
   border: 1.3px solid black;
 }
 
-/* PosClasse */
+/* Validação cores */
 .incorrect {
   background-color: #787c7e;
 }
@@ -136,4 +136,21 @@ h1 {
 .incorrect {
   color: #fff;
   border: none;
+}
+
+@media (max-width: 720px) {
+  .teclado {
+    width: 300px;
+  }
+
+  .tecla {
+    min-width: 32px;
+  }
+  .enter {
+    font-size: 0.58em;
+  }
+  .tecla-del {
+    padding: 6px;
+    width: 30px;
+  }
 }
