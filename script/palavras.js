@@ -138,5 +138,9 @@ let palavrasValidas =
         "nadar", "chute", "curva", "cenas", "fecha", "flama", "salto", "desce", "sonda", "nevar",
         "beber", "rimar", "rugir", "litro", "metro", "molha", "somar", "helio", "pilha", "risos",
         "remos", "remar", "acres", "lista", "liste", "vinco", "potes", "copas", "pipas", "lance",
-        "lanca", "cofre", "torno", "rodar", "rodas", "pneus", "cabos", "sabao", "salas", "missa",]
-console.log(palavrasValidas.length)
+        "lanca", "cofre", "torno", "rodar", "rodas", "pneus", "cabos", "sabao", "salas", "missa",
+        "ursos", "hiper", "melao", "luzes", "pinha", "fumar", "droga", "brasa", "cores", "julga",
+        "cocar", "manta", "frios", "deusa", "grego", "grega", "saque", "surfe", "plana", "poses",
+        "casal", "times", "marte", "dores", "secar", "vagas", "conte", "jurar", "jurou", "vidro",
+        "corno", "corna", "pular", "exata", "devia", "mudou", "surte", "prove", "homem", "edita"]
+// console.log(palavrasValidas.length)
