@@ -129,4 +129,10 @@ let palavrasValidas =
         "santa", "pouso", "pousa", "obras", "prega", "limas", "ratos", "ratas", "pisos", "macas",
         "volte", "tenta", "chipa", "xerox", "casca", "casco", "caspa", "sopas", "minta", "brigo",
         "eleva", "mitos", "micos", "somas", "casos", "casas", "rompe", "figos", "peras", "ditar",
-        "meses", "mesas", "tiara", "morsa", "ferro", "testa", "tenis", "cipos", "metas", "setas"]
+        "meses", "mesas", "tiara", "morsa", "ferro", "testa", "tenis", "cipos", "metas", "setas",
+        "bocas", "bingo", "pinga", "penas", "penal", "lagos", "golas", "finos", "calar", "forme",
+        "morde", "mudos", "mudas", "mofar", "fungo", "lhama", "focar", "focas", "fofos", "fofas",
+        "chora", "bamba", "bonde", "total", "siris", "treva", "lesma", "lacos", "botes", "dizem",
+        "perde", "lambe", "grade", "tiram", "foice", "viaja", "telas", "pisar", "clone", "clona",
+        "danca", "preco", "polar", "cravo", "furos", "rasgo", "rasga", "falam", "fitas", "copos"]
+console.log(palavrasValidas.length)
