@@ -21,17 +21,14 @@
   width: 100%;
   display: flex;
   flex-flow: row nowrap;
-  /* justify-content: space-between; */
   justify-content: center;
   align-items: center;
-  /* ll */
   height: 67px;
   border: 0.4px solid rgba(128, 128, 128, 0.25);
   padding: 14px;
 }
 
 h1 {
-  /* display: inline; */
   display: block;
   font-size: 2em;
 }
@@ -48,7 +45,6 @@ h1 {
   max-width: 350px;
   gap: 7px;
   padding: 10px;
-  /* ll */
   width: 90%;
   align-items: center;
 }
@@ -57,10 +53,8 @@ h1 {
   display: flex;
   width: 100%;
   column-gap: 7px;
-  /* ll */
 }
 
-/* .linha-tab > */
 .quad {
   width: 62px;
   height: 62px;
@@ -139,6 +133,9 @@ h1 {
 }
 
 @media (max-width: 720px) {
+  .container {
+    justify-content: space-around;
+  }
   .teclado {
     width: 300px;
   }

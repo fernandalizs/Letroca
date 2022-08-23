@@ -10,7 +10,7 @@ let palavrasValidas =
         "digno", "apice", "animo", "ansia", "ceder", "brado", "comum", "sendo", "temor", "gleba",
         "culto", "assaz", "atroz", "mundo", "pauta", "censo", "fugaz", "ainda", "cozer", "valha",
         "denso", "nenem", "vicio", "estar", "forte", "vulgo", "reves", "pudor", "regra", "dogma",
-        "louco", "criar", "banal", "round", "impor", "saude", "jeito", "atras", "ordem", "tenro",
+        "louco", "criar", "banal", "duelo", "impor", "saude", "jeito", "atras", "ordem", "tenro",
         "pifio", "desse", "apraz", "pedir", "merce", "reaça", "clava", "usura", "prosa", "feliz",
         "juizo", "servo", "viril", "sabio", "coisa", "manso", "ontem", "presa", "falar", "cunho",
         "forma", "devir", "mesmo", "meiga", "afago", "fluir", "ebrio", "plato", "vendo", "limbo",
@@ -134,5 +134,9 @@ let palavrasValidas =
         "morde", "mudos", "mudas", "mofar", "fungo", "lhama", "focar", "focas", "fofos", "fofas",
         "chora", "bamba", "bonde", "total", "siris", "treva", "lesma", "lacos", "botes", "dizem",
         "perde", "lambe", "grade", "tiram", "foice", "viaja", "telas", "pisar", "clone", "clona",
-        "danca", "preco", "polar", "cravo", "furos", "rasgo", "rasga", "falam", "fitas", "copos"]
+        "danca", "preco", "polar", "cravo", "furos", "rasgo", "rasga", "falam", "fitas", "copos",
+        "nadar", "chute", "curva", "cenas", "fecha", "flama", "salto", "desce", "sonda", "nevar",
+        "beber", "rimar", "rugir", "litro", "metro", "molha", "somar", "helio", "pilha", "risos",
+        "remos", "remar", "acres", "lista", "liste", "vinco", "potes", "copas", "pipas", "lance",
+        "lanca", "cofre", "torno", "rodar", "rodas", "pneus", "cabos", "sabao", "salas", "missa",]
 console.log(palavrasValidas.length)
