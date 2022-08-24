@@ -152,9 +152,10 @@ h1 {
   }
   .enter {
     font-size: 0.56em;
+    min-width: 48px;
   }
   .tecla-del {
     padding: 6px;
-    width: 30px;
+    min-width: 48px;
   }
 }

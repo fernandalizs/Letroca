@@ -158,4 +158,11 @@ let palavrasValidas =
         "ACABO", "ACABA", "ALCAS", "JESUS", "ABRIL", "DUETO", "AULAS", "LEOES", "MORRE", "DITOU",
         "CLARA", "FOGOS", "CRINA", "NEGRA", "NEGOU", "SELOS", "SOLAS", "SABEM", "FALOU", "DONAS",
         "DONOS", "BICHO", "CACHE", "RINHA", "GALOS", "PUXAR", "MODOS", "AJUDO", "CLIPE", "MENOR",
-        "OTIMA", "ENTRO", "FREIO", "FREIA", "BUSER", "FINAS", "SEPTO", "TORRE", "ALUGA", "VINDA", "CHEGA", "SOCOS", "SOCAR", "MALHO", "LEBRE", "LEBRA", "BRUXO", "FIEIS", "CAPIM", "FILMA"]
+        "OTIMA", "ENTRO", "FREIO", "FREIA", "BUSER", "FINAS", "SEPTO", "TORRE", "ALUGA", "VINDA",
+        "CHEGA", "SOCOS", "SOCAR", "MALHO", "LEBRE", "LEBRA", "BRUXO", "FIEIS", "CAPIM", "FILMA",
+        "APAGO", "NENEM", "BEBES", "CORVO", "COVAS", "COLOS", "ERROS", "ERROU", "PELES", "PELOS",
+        "CIDRA", "SOGRA", "SOGRO", "SOMOS", "SENHA", "SONHA", "DEITA", "DEITO", "DEITE", "TRICO",
+        "FEZES", "FICOU", "MIRAR", "MIROU", "MIREI", "FERIU", "BOLOS", "BELEM", "AMAPA", "BAHIA",
+        "INIBE", "BAMBO", "SECOU", "PEITO", "TIROS", "TREME", "LEVES", "LEVOU", "BICAR", "PRENA",
+        "BRACO", "FEBRE", "GOELA", "COLHE", "RETAS", "VERIA", "VAMOS", "SOMEM", "RAMOS", "ROMAS", "ACHEI", "ACHOU", ""]
+console.log(palavrasValidas.length)

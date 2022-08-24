@@ -1,1 +1,1 @@
-console.log(palavrasValidas.length)
+length

@@ -93,6 +93,8 @@ function checaResultado(resultado) {
         startConfetti()
         // soltaRojao()
         fimDeJogo = true;
+    } else if (linha >= 6) {
+        document.getElementById('invalidar').innerHTML = `A palavra é: ${palavraDoDia}`
     } else {
         linha += 1;
         entrada = [];
@@ -123,11 +125,11 @@ function validarEntrada() {
     }
     checaResultado(resultado)
 }
-function soltaRojao() {
-    //usado para renderizar o fullcorrect antes do alert, mas pode melhorar
-    setTimeout(() => { window.alert('pow pow pow tey tey'); }, 200);
+// function soltaRojao() {
+//     //usado para renderizar o fullcorrect antes do alert, mas pode melhorar
+//     setTimeout(() => { window.alert('pow pow pow tey tey'); }, 200);
 
-}
+// }
 
 function deletar() {
     let elId = `l${linha}c${entrada.length + 1}`;
