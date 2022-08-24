@@ -133,6 +133,11 @@ h1 {
   border: none;
 }
 
+#confetti-canvas {
+  position: absolute;
+  top: 0;
+}
+
 @media (max-width: 720px) {
   .container {
     justify-content: space-around;

@@ -90,7 +90,8 @@ function checaResultado(resultado) {
     // localStorage.setItem('word1', resultado)
     // console.log(localStorage.word1)
     if (resultado == palavraDoDia) {
-        soltaRojao()
+        startConfetti()
+        // soltaRojao()
         fimDeJogo = true;
     } else {
         linha += 1;

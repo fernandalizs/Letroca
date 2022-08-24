@@ -155,5 +155,7 @@ let palavrasValidas =
         "VACAS", "SACOS", "SACAS", "PESOS", "MEMES", "LARVA", "MALHA", "NELES", "NELAS", "MEIAS",
         "FEMEA", "MACHO", "VIVEM", "TALES", "BABAR", "BABAS", "LOUVA", "LOUVO", "MUSAS", "MISTA",
         "TRAVO", "FIXOS", "FIXAS", "MAFIA", "GRANA", "GRILO", "GRIFO", "GRIFA", "FAZEM", "FURAR",
-        "ACABO", "ACABA", "ALCAS", "JESUS", "ABRIL", "DUETO", "AULAS", "LEOES", "MORRE", "DITOU"]
-console.log(palavrasValidas.length)
+        "ACABO", "ACABA", "ALCAS", "JESUS", "ABRIL", "DUETO", "AULAS", "LEOES", "MORRE", "DITOU",
+        "CLARA", "FOGOS", "CRINA", "NEGRA", "NEGOU", "SELOS", "SOLAS", "SABEM", "FALOU", "DONAS",
+        "DONOS", "BICHO", "CACHE", "RINHA", "GALOS", "PUXAR", "MODOS", "AJUDO", "CLIPE", "MENOR",
+        "OTIMA", "ENTRO", "FREIO", "FREIA", "BUSER", "FINAS", "SEPTO", "TORRE", "ALUGA", "VINDA", "CHEGA", "SOCOS", "SOCAR", "MALHO", "LEBRE", "LEBRA", "BRUXO", "FIEIS", "CAPIM", "FILMA"]
