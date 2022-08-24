@@ -1,13 +1,7 @@
-// let palavraDoDia = palavrasValidas[1];
-
 let fimDeJogo = false
 let linha = 1;
 let resultado = '';
 let entrada = [];
-let listaPalavras
-for (palavra of palavrasValidas) {
-    let listaPalavras = palavra.toUpperCase
-}
 
 data()
 function data() {
@@ -27,7 +21,7 @@ function data() {
         };
     })();
     let data1 = new Date("2022-08-22")
-    let data2 = new Date("2025-09-11")
+    let data2 = new Date("2026-12-01")
     let intervalo = dateIntervalGenerator.generateIn(data1, data2)
 
     intervalo.forEach(element => {
@@ -38,7 +32,6 @@ function data() {
     let dia = palavrasValidas[indice]
     palavraDoDia = dia.toLocaleUpperCase()
 }
-
 
 const trataTecla = (tecla) => {
     if (fimDeJogo) {
@@ -54,20 +47,19 @@ const trataTecla = (tecla) => {
         return null;
     }
 
+    resultado = gerarPalavra()
     if (char == "ENTER") {
         if (entrada.length == 5) {
             validarEntrada();
-            resultado = gerarPalavra()
-            checaResultado(resultado)
         }
         return;
     }
 
-
     if (char == "BACKSPACE") {
         entrada.pop();
         console.log(entrada);
-        deletar()
+        deletar();
+        document.getElementById('invalidar').innerHTML = ""
         return;
     }
 
@@ -94,6 +86,9 @@ function gerarPalavra() {
 }
 
 function checaResultado(resultado) {
+    //  console.log(resultado)
+    // localStorage.setItem('word1', resultado)
+    // console.log(localStorage.word1)
     if (resultado == palavraDoDia) {
         soltaRojao()
         fimDeJogo = true;
@@ -104,35 +99,28 @@ function checaResultado(resultado) {
     return
 }
 
-// function invalidarEntrada() {
-//     let invalidar = document.getElementById('invalidar')
-
-//     if (!listaPalavras.includes(entrada)) {
-//         let palavraInvalida = "<p> Palavra inválida </p>"
-//         let $aviso = document.createElement('div')
-//         $aviso.innerHTML = palavraInvalida
-//         invalidar.appendChild($aviso)
-//         return true
-//     }
-
-// }
-
 function validarEntrada() {
-    for (var i = 1; i <= 5; i++) {
-        let elId = `l${linha}c${i}`;
-        const el = document.getElementById(elId);
-        const tecladoColorido = document.getElementById(el.textContent)
-        if (palavraDoDia[i - 1] == el.textContent) {
-            el.classList.add('fullcorrect')
-            tecladoColorido.classList.add('fullcorrect')
-        } else if (palavraDoDia.includes(el.textContent)) {
-            el.classList.add('correct')
-            tecladoColorido.classList.add('correct')
-        } else {
-            el.classList.add('incorrect')
-            tecladoColorido.classList.add('incorrect')
+    if (!palavrasValidas.includes(resultado)) {
+        document.getElementById('invalidar').innerHTML = "Palavra inválida"
+        return
+    } else {
+        for (var i = 1; i <= 5; i++) {
+            let elId = `l${linha}c${i}`;
+            const el = document.getElementById(elId);
+            const tecladoColorido = document.getElementById(el.textContent)
+            if (palavraDoDia[i - 1] == el.textContent) {
+                el.classList.add('fullcorrect')
+                tecladoColorido.classList.add('fullcorrect')
+            } else if (palavraDoDia.includes(el.textContent)) {
+                el.classList.add('correct')
+                tecladoColorido.classList.add('correct')
+            } else {
+                el.classList.add('incorrect')
+                tecladoColorido.classList.add('incorrect')
+            }
         }
     }
+    checaResultado(resultado)
 }
 function soltaRojao() {
     //usado para renderizar o fullcorrect antes do alert, mas pode melhorar
