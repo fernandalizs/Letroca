@@ -164,5 +164,7 @@ let palavrasValidas =
         "CIDRA", "SOGRA", "SOGRO", "SOMOS", "SENHA", "SONHA", "DEITA", "DEITO", "DEITE", "TRICO",
         "FEZES", "FICOU", "MIRAR", "MIROU", "MIREI", "FERIU", "BOLOS", "BELEM", "AMAPA", "BAHIA",
         "INIBE", "BAMBO", "SECOU", "PEITO", "TIROS", "TREME", "LEVES", "LEVOU", "BICAR", "PRENA",
-        "BRACO", "FEBRE", "GOELA", "COLHE", "RETAS", "VERIA", "VAMOS", "SOMEM", "RAMOS", "ROMAS", "ACHEI", "ACHOU", ""]
-console.log(palavrasValidas.length)
+        "BRACO", "FEBRE", "GOELA", "COLHE", "RETAS", "VERIA", "VAMOS", "SOMEM", "RAMOS", "ROMAS",
+        "ACHEI", "ACHOU", "PALMA", "MUDEI", "MORNO", "FORNO", "TACAR", "MANDE", "ENVIO", "ENVIA",
+        "LIMPA", "FRETE", "LENDO", "NOVOS", "VINDO", "AVISA", "PERDI", "PEDIU", "ROLAR", "ARCOS",
+        "FICAM", "VENDA", "VENDE", "PULOU", "PULAM", "MAPAS", "REDES", "SUMIU", "SOBRA", "FANTA"]
