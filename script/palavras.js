@@ -167,4 +167,5 @@ let palavrasValidas =
         "BRACO", "FEBRE", "GOELA", "COLHE", "RETAS", "VERIA", "VAMOS", "SOMEM", "RAMOS", "ROMAS",
         "ACHEI", "ACHOU", "PALMA", "MUDEI", "MORNO", "FORNO", "TACAR", "MANDE", "ENVIO", "ENVIA",
         "LIMPA", "FRETE", "LENDO", "NOVOS", "VINDO", "AVISA", "PERDI", "PEDIU", "ROLAR", "ARCOS",
-        "FICAM", "VENDA", "VENDE", "PULOU", "PULAM", "MAPAS", "REDES", "SUMIU", "SOBRA", "FANTA"]
+        "FICAM", "VENDA", "VENDE", "PULOU", "PULAM", "MAPAS", "REDES", "SUMIU", "SOBRA", "FANTA",
+        "MARIA", "LUCAS", "NANCI", "BEICO", "SELVA", "SACAM", "SAIAM", "VOLEI", "LANCO", "PRETA"]
