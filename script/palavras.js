@@ -181,4 +181,3 @@ let palavrasValidas =
         "SAFRA", "AFETA", "MANSA", "SUBIU", "CACOU", "MIMOS", "MIMOU", "ATUNS", "MULAS", "CAIDO",
         "CAIDA", "FALTO", "SOMOU", "SOMEI", "FERVE", "LEOAS", "MUGIR", "EMITE", "TOURO", "NEGAM",
         "VASOS", "AFAGA", "URUBU", "LOMBO", "PICAR", "FASES", "PARIS", "BLEFE", "ALUNA", "FLUIU"]
-console.log(palavrasValidas.length)
