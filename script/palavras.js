@@ -173,5 +173,12 @@ let palavrasValidas =
         "CORRO", "CORRI", "ALVOS", "BERRA", "BEIRA", "DESCA", "DELTA", "GEROU", "MUITA", "DURMA",
         "TACAM", "HIENA", "BIFES", "PANOS", "CANOS", "CANAL", "PAPAI", "GOLFO", "RETOS", "ALCES",
         "GAMEI", "GAMAR", "GAMOU", "PILAO", "TEMOS", "TEMEM", "TREMO", "PODEM", "ANEXA", "OVULO",
-        "JUROS", "CHAME", "VERME", "DERME", "URSAS", "DRONE", "RAMPA", "TAMPO", "EXIBE", "EXALA"]
+        "JUROS", "CHAME", "VERME", "DERME", "URSAS", "DRONE", "RAMPA", "TAMPO", "EXIBE", "EXALA",
+        "CARNE", "PINOS", "POCAO", "CALAO", "CALAM", "PORTO", "TURNO", "ALMAS", "IAMOS", "FORAM",
+        "CLONO", "LAVAR", "VOCES", "BUCHA", "GURIA", "VETOU", "VETAM", "MATEM", "ATIVA", "ASSOU",
+        "ASSAM", "CAIBA", "FOCOS", "FRACA", "BROCA", "FARPA", "LASCA", "IDOLA", "OPACA", "APAGA",
+        "EXPUS", "DOBRA", "DOBRE", "DORMI", "DURMO", "FURTA", "LEIGA", "PREZO", "PREZA", "BROTO",
+        "SAFRA", "AFETA", "MANSA", "SUBIU", "CACOU", "MIMOS", "MIMOU", "ATUNS", "MULAS", "CAIDO",
+        "CAIDA", "FALTO", "SOMOU", "SOMEI", "FERVE", "LEOAS", "MUGIR", "EMITE", "TOURO", "NEGAM",
+        "VASOS", "AFAGA", "URUBU", "LOMBO", "PICAR", "FASES", "PARIS", "BLEFE", "ALUNA", "FLUIU"]
 console.log(palavrasValidas.length)

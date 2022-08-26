@@ -21,7 +21,7 @@ function data() {
         };
     })();
     let data1 = new Date("2022-08-22")
-    let data2 = new Date("2026-12-01")
+    let data2 = new Date("2027-08-15")
     let intervalo = dateIntervalGenerator.generateIn(data1, data2)
 
     intervalo.forEach(element => {
@@ -95,6 +95,7 @@ function checaResultado(resultado) {
         fimDeJogo = true;
     } else if (linha >= 6) {
         document.getElementById('invalidar').innerHTML = `A palavra era: ${palavraDoDia}`
+        fimDeJogo = true
     } else {
         linha += 1;
         entrada = [];
