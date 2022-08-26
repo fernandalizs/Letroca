@@ -85,16 +85,16 @@ function gerarPalavra() {
     return entrada[0] + entrada[1] + entrada[2] + entrada[3] + entrada[4]
 }
 
+window.localStorage.setItem(`word${linha}`, resultado)
 function checaResultado(resultado) {
-    //  console.log(resultado)
-    // localStorage.setItem('word1', resultado)
+
     // console.log(localStorage.word1)
     if (resultado == palavraDoDia) {
         startConfetti()
         // soltaRojao()
         fimDeJogo = true;
     } else if (linha >= 6) {
-        document.getElementById('invalidar').innerHTML = `A palavra é: ${palavraDoDia}`
+        document.getElementById('invalidar').innerHTML = `A palavra era: ${palavraDoDia}`
     } else {
         linha += 1;
         entrada = [];
@@ -148,3 +148,23 @@ document.querySelectorAll(".tecla").forEach((el) => {
         trataTecla(letra);
     });
 });
+
+const modalConsole = () => {
+    const modal = document.querySelector('.modal')
+    const estiloAtual = modal.style.display
+    if (estiloAtual == 'block') {
+        modal.style.display = 'none'
+    } else {
+        modal.style.display = 'block'
+    }
+}
+
+const botaoLigaModal = document.querySelector('.comoJogarModal')
+botaoLigaModal.addEventListener('click', modalConsole)
+
+window.onclick = function (event) {
+    const modal = document.querySelector('.modal')
+    if (event.target == modal) {
+        modalConsole()
+    }
+}

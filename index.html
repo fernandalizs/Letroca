@@ -27,7 +27,25 @@
   <body>
     <div class="container">
       <nav class="navbar">
-        <h1>Letroca</h1>
+        <ul>
+          <a href="https://github.com/fernandalizs/Letroca" target="_blank">
+            <img
+              class="github"
+              src="./images/github-free-icon-font.svg"
+              alt="Ícone github"
+            />
+          </a>
+        </ul>
+        <ul>
+          <h1>Letroca</h1>
+        </ul>
+        <ul>
+          <img
+            class="comoJogarModal"
+            src="./images/interrogation-free-icon-font.svg"
+            alt="Botão como jogar"
+          />
+        </ul>
       </nav>
 
       <div class="tabuleiro">
@@ -112,13 +130,52 @@
             <img
               class="button-backspace"
               src="./images/icone-backspace.svg"
-              alt=""
+              alt="Tecla backspace"
             />
           </button>
         </div>
       </div>
     </div>
-
+    <div class="modal">
+      <div class="conteudo">
+        <h2>COMO JOGAR</h2>
+        <p>Adivinhe a palavra do dia em 6 tentativas!</p>
+        <p>
+          Digite uma palavra de 5 letras (sem acento ou cedilha) válida e tecle
+          enter para submeter sua resposta.
+        </p>
+        <p>
+          Se a letra estiver certa no lugar correto, o quadrado ficará verde
+        </p>
+        <div class="exemploModal">
+          <div class="quad">F</div>
+          <div class="quad fullcorrect">E</div>
+          <div class="quad">L</div>
+          <div class="quad">I</div>
+          <div class="quad">Z</div>
+        </div>
+        <p>
+          Se a letra estiver certa no lugar errado, o quadrado ficará amarelo
+        </p>
+        <div class="exemploModal">
+          <div class="quad correct">M</div>
+          <div class="quad">A</div>
+          <div class="quad">N</div>
+          <div class="quad">T</div>
+          <div class="quad">O</div>
+        </div>
+        <p>Se não existir a letra na palavra, o quadrado ficará cinza</p>
+        <div class="exemploModal">
+          <div class="quad">T</div>
+          <div class="quad">I</div>
+          <div class="quad">M</div>
+          <div class="quad incorrect">A</div>
+          <div class="quad">O</div>
+        </div>
+        <p>Todos os dias uma palavra nova para adivinhar!</p>
+        <p>Jogo sem fins lucrativos</p>
+      </div>
+    </div>
     <script src="./script/palavras.js"></script>
     <script src="./script/script.js"></script>
     <script src="./script/confetti.js"></script>

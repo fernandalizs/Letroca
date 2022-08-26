@@ -1,6 +1,6 @@
 let palavrasValidas =
     ["SAGAZ", "AMORA", "PINTO", "AMAGO", "NEGRO", "EXITO", "MEXER", "TERMO", "NOBRE", "SENSO",
-        "ARDER", "BOLHA", "ROLHA", "CIRCO", "FALIR", "PEDIR", "AFETO", "PLENA", "ETICA", "MUTUA",
+        "ARDER", "BOLHA", "ROLHA", "CIRCO", "FALIR", "PEDEM", "AFETO", "PLENA", "ETICA", "MUTUA",
         "TENUE", "SUTIL", "VIGOR", "AQUEM", "FAZER", "POREM", "AUDAZ", "ASSIM", "SANAR", "SECAO",
         "INATO", "CERNE", "FOSSE", "IDEIA", "PODER", "MORAL", "DESDE", "TORPE", "MUITO", "JUSTO",
         "HONRA", "FUTIL", "SOBRE", "ANEXO", "QUICA", "RAZAO", "ETNIA", "ICONE", "SONHO", "TANGE",
@@ -168,4 +168,10 @@ let palavrasValidas =
         "ACHEI", "ACHOU", "PALMA", "MUDEI", "MORNO", "FORNO", "TACAR", "MANDE", "ENVIO", "ENVIA",
         "LIMPA", "FRETE", "LENDO", "NOVOS", "VINDO", "AVISA", "PERDI", "PEDIU", "ROLAR", "ARCOS",
         "FICAM", "VENDA", "VENDE", "PULOU", "PULAM", "MAPAS", "REDES", "SUMIU", "SOBRA", "FANTA",
-        "MARIA", "LUCAS", "NANCI", "BEICO", "SELVA", "SACAM", "SAIAM", "VOLEI", "LANCO", "PRETA"]
+        "MARIA", "LUCAS", "NANCI", "BEICO", "SELVA", "SACAM", "SAIAM", "VOLEI", "LANCO", "PRETA",
+        "COSTA", "MARES", "CERAS", "FATIA", "CROMO", "LICAO", "LIXAO", "FOMOS", "PINTA", "CHAPA",
+        "CORRO", "CORRI", "ALVOS", "BERRA", "BEIRA", "DESCA", "DELTA", "GEROU", "MUITA", "DURMA",
+        "TACAM", "HIENA", "BIFES", "PANOS", "CANOS", "CANAL", "PAPAI", "GOLFO", "RETOS", "ALCES",
+        "GAMEI", "GAMAR", "GAMOU", "PILAO", "TEMOS", "TEMEM", "TREMO", "PODEM", "ANEXA", "OVULO",
+        "JUROS", "CHAME", "VERME", "DERME", "URSAS", "DRONE", "RAMPA", "TAMPO", "EXIBE", "EXALA"]
+console.log(palavrasValidas.length)
