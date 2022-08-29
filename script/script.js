@@ -21,7 +21,7 @@ function data() {
         };
     })();
     let data1 = new Date("2022-08-22")
-    let data2 = new Date("2027-08-15")
+    let data2 = new Date("2027-12-25")
     let intervalo = dateIntervalGenerator.generateIn(data1, data2)
 
     intervalo.forEach(element => {
