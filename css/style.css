@@ -42,7 +42,12 @@ h1 {
   gap: 7px;
 }
 
+ul img {
+  cursor: pointer;
+}
+
 .github {
+  cursor: pointer;
   object-fit: cover;
   width: 28px;
   margin-left: 2px;
